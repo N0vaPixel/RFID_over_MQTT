@@ -37,3 +37,5 @@ Also used to describe weakness of non-secured implementations.
 * Repo maintainer & dev : Aurélien Hernandez
 * Co-worker & dev : Maxime Bailly
 
+* MFRC522 Desfire library : [JPG-Consulting](https://github.com/JPG-Consulting/rfid-desfire)
+
