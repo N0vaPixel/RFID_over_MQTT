@@ -16,6 +16,8 @@ Also demonstrate the weakness of authentified but non-secured implementations.
 
 * Flexible by design	: Uses the MQTT pub/sub specificity. Allowing you to easily add any type of device that can push/handle events over the MQTT protocol.
 * Secure by design		: Uses SSL to certify and encrypt communication across all embedded devices of the MQTT network (WIP).
+                       Uses NXP Mifare Desfire instead of Classic, in order to avoid known hardware weaknesses on Classic. Compatible with most french student ID cards.
+                       Uses UID instead of memory banks for now (prone to spoofing & clonning issues).
 * Beginner-friendly		: Codded with the arduino development environment. Simplified methods allow to easily get hands on microcontroller programming.
 * Low bill cost			  : Currently uses low-cost and hackable components (schematics & BOM TODO).
 
